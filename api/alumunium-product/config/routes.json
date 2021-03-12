@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/alumunium-products",
+      "handler": "alumunium-product.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alumunium-products/count",
+      "handler": "alumunium-product.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/alumunium-products/:id",
+      "handler": "alumunium-product.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/alumunium-products",
+      "handler": "alumunium-product.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/alumunium-products/:id",
+      "handler": "alumunium-product.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/alumunium-products/:id",
+      "handler": "alumunium-product.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

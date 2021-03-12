@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alumunium_products",
+  "info": {
+    "name": "Alumunium Product"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "gambar_produk": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "nama_produk": {
+      "type": "string"
+    },
+    "harga_produk": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vission-and-mission",
+      "handler": "vission-and-mission.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vission-and-mission",
+      "handler": "vission-and-mission.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vission-and-mission",
+      "handler": "vission-and-mission.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

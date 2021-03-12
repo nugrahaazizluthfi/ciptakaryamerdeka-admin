@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_teams",
+  "info": {
+    "name": "Our Team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "whatsapp_number": {
+      "type": "string"
+    },
+    "facebook_address": {
+      "type": "string"
+    },
+    "twitter_address": {
+      "type": "string"
+    },
+    "instagram_address": {
+      "type": "string"
+    },
+    "linkedin_address": {
+      "type": "string"
+    }
+  }
+}

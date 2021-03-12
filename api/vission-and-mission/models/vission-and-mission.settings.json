@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "vission_and_missions",
+  "info": {
+    "name": "Vission & Mission"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "vission": {
+      "type": "text"
+    },
+    "mission": {
+      "type": "text"
+    }
+  }
+}
